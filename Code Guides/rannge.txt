@@ -1,0 +1,8 @@
+
+range(stop)
+range(start, stop)
+range(start, stop, step)
+
+Generates a list of numbers from start 
+up to (but not including) stop. Each item increses by step.
+Start defaults to 0 and step to 1.
