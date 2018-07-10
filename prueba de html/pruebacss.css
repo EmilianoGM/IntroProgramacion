@@ -1,11 +1,22 @@
-body {
-    height: 100%;
-    width: 100%;
+body, html {
+    height: 50%;
+    width: 50%;
+}
+
+img > a {
+  border: none;
+}
+
+h1 {
+    color: darkred;
+}
+
+.bi {
     background-image: url("imagendefondo.jpg");
+    height: 50%;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-}
-h1 {
-    color: darkred;
+    border: 5px thick rosybrown;
+    margin: 5px 5px;
 }

@@ -181,7 +181,7 @@ color:black;
 
 .MiBotonUTNLinea{
   max-width: 150px;
-position: absolute;
+  position: static;
   text-transform: capitalize;
   border:hidden;
   width:100%;
