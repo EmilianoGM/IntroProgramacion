@@ -1,6 +1,6 @@
 body, html {
-    height: 50%;
-    width: 50%;
+    height: 100%;
+    width: 100%;
 }
 
 img > a {
@@ -9,14 +9,14 @@ img > a {
 
 h1 {
     color: darkred;
+    border: thick solid greenyellow;
+    text-align: center;
 }
 
 .bi {
-    background-image: url("imagendefondo.jpg");
-    height: 50%;
+    background-image: url("imagendefondo2.jpg");
+    height: 100%;
     background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
-    border: 5px thick rosybrown;
-    margin: 5px 5px;
 }

@@ -1,1 +1,1 @@
-Math.floor(Math.random() * (max - min)) + MIN;
+Math.floor(Math.random() * (max - min]) + MIN;
