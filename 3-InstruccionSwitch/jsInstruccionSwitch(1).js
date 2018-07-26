@@ -15,6 +15,9 @@ function mostrar()
         case "Diciembre":
             alert("Felices fiestas!");
             break;
+        default:
+            alert("No se ingreso ningún mes enunciado.");
+            break;
     }
 
 
