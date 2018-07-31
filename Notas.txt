@@ -1,0 +1,3 @@
+Flags¿?
+primero pedir los datos y validar todos. Luego el codigo del ejercicio.
+para un minimo, inicio la variable  con el valor maximo posible. Si no hay rango uso flag.
