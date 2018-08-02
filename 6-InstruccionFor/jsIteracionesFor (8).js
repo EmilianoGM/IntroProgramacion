@@ -1,6 +1,58 @@
 function mostrar()
 {
-    var numero;
+
+}//FIN DE LA FUNCIÓN
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*    var numero;
     numero = prompt("Numero:");
     numero = parseInt(numero);
     for(var cont = 1; cont < numero; cont++){
@@ -13,5 +65,4 @@ function mostrar()
         }
     }
 
-
-}//FIN DE LA FUNCIÓN
+*/
