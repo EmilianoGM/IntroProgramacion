@@ -1,27 +1,29 @@
 function mostrar()
 {
-    var numero1;
-    var numero2;
+    var numeroUno;
+    var numeroDos;
     var division;
     var suma;
 
-    numero1 = prompt("Primer número:");
-    numero2 = prompt("Segundo número:");
+    numeroUno = prompt("Ingrese el primer número:");
+    numeroUno = parseInt(numeroUno);
 
-    numero1 = parseInt(numero1);
-    numero2 = parseInt(numero2);
+    numeroDos = prompt("Ingrese el segundo número:");
+    numeroDos = parseInt(numeroDos);
 
-    if (numero1 == numero2) {
-        alert("Son " + numero1 + " " + numero2);
-    } else if (numero1 > numero2) {
-        division = numero1 / numero2;
-        alert("Resultado " + division);
+    if(numeroUno == numeroDos){
+        alert("Los numeros son " + numeroUno + " y " + numeroDos);
     } else {
-        suma = numero1 + numero2;
-        if (suma < 50 ){
-            alert("La suma es " + suma + " y es menor a 50.");
+        if(numeroUno > numeroDos){
+        division = numeroUno / numeroDos;
+        alert(division);
         } else {
-            alert("Resultado " + suma);
+            suma = numeroUno + numeroDos;
+            if(suma < 50) {
+                alert("La suma es " + suma + " y es menor a 50.");
+            } else {
+                alert("La suma es " + suma);
+            }
         }
     }
 }
